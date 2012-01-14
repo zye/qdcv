@@ -1,0 +1,11 @@
+run
+-ifn scan.prj
+-top dpram
+-ent RTL
+-ifmt mixed
+-ofmt NGC
+-opt_mode SPEED
+-opt_level 1
+-ofn ise.ngc
+-p xc5vsx50t-ff1136-1
+
